@@ -1,0 +1,84 @@
+/*MovieDetails.css*/
+
+.movie-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contingut a la pàgina */
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 8px;
+    color: #e0e0e0;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .movie-details {
+    display: flex;
+    flex-direction: row;
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 8px;
+    color: #E0E0E0;
+    margin-bottom: 20px; /* Separació entre la fitxa i el botó */
+    width: 100%;
+  }
+  
+  .movie-poster {
+    max-width: 300px; /* Limita la mida de la imatge del pòster */
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .movie-info {
+    margin-left: 20px;
+    flex-grow: 1;
+  }
+  
+  .movie-rating {
+    text-align: center;
+    background-color: #2a2a2a;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 250px; /* Limita l'ample de la secció de valoració */
+    margin-top: 15px; /* Separem una mica la valoració de la imatge */
+  }
+  
+  .cast-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  
+  .cast-member {
+    text-align: center;
+    margin-right: 20px;
+  }
+  
+  .cast-photo {
+    width: 80px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  
+  .return-button-container {
+    display: flex;
+    justify-content: center; /* Centra el botó */
+    width: 100%; /* Amplia el contenidor per assegurar-se que el botó estigui centrat */
+    margin-top: 20px;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
